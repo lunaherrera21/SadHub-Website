@@ -50,34 +50,35 @@
       "name": "Jugador",
       "image": "/no-fondo.png",
       "socials": [
-  
+     { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/" }
       ]
     },
     {
       "name": "PlayerTwo",
       "image": "/no-fondo.png",
       "socials": [
-
+   { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/" }
       ]
     },
     {
       "name": "PlayerThree",
       "image": "/no-fondo.png",
       "socials": [
-
+   { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/" }
       ]
     },
     {
       "name": "PlayerFour",
       "image": "/no-fondo.png",
       "socials": [
-
+   { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/" }
       ]
     },
     {
       "name": "PlayerFive",
       "image": "/no-fondo.png",
       "socials": [
+           { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/" }
       ]
     }
   ],
@@ -87,6 +88,7 @@
       "name": "CoachX",
       "image": "/no-fondo.png",
       "socials": [
+           { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/" }
       ]
     }
   ]

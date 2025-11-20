@@ -23,8 +23,8 @@ interface TeamMember {
   socials: Social[];
 }
 
-// Mapa tipado para convertir string → componente real
-const iconMap: Record<string, React.ComponentType> = {
+// Mapa simple sin tipo específico
+const iconMap = {
   InstagramOutlined,
   XOutlined
 };
@@ -113,7 +113,7 @@ export default function EquipoPage() {
                   <span className="text-lg font-semibold">{player.name}</span>
                   <div className="flex gap-3">
                     {player.socials.map((s, j) => {
-                      const IconComponent = iconMap[s.icon];
+                      const IconComponent = iconMap[s.icon as keyof typeof iconMap];
                       return (
                         <a key={j} href={s.url} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
                           <Lineicons icon={IconComponent} size={20} color={s.color} strokeWidth={1.5} />
@@ -159,7 +159,7 @@ export default function EquipoPage() {
                   <span className="text-lg font-semibold">{coach.name}</span>
                   <div className="flex gap-3">
                     {coach.socials.map((s, j) => {
-                      const IconComponent = iconMap[s.icon];
+                      const IconComponent = iconMap[s.icon as keyof typeof iconMap];
                       return (
                         <a key={j} href={s.url} target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
                           <Lineicons icon={IconComponent} size={20} color={s.color} strokeWidth={1.5} />
