@@ -1,9 +1,31 @@
-// app/page.tsx
+
+import SponsorsSection from '@/components/Home/Sponsor/Sponsor';
+import HeroSection from '@/components/Hero/Hero';
+import ShopProductsSection from '@/components/Home/ShopProducts/ShopProducts';
+import SocialSection from '@/components/Home/Social/Social';
+import OwnersSection from '@/components/Home/Owners/page';
+
 export default function Home() {
   return (
-    <div>
-      <h1>SadHub Esports</h1>
-      <p>Página principal</p>
-    </div>
+    <>
+      <HeroSection />
+
+      <section>
+        <ShopProductsSection />
+      </section>
+
+      <section>
+        <SocialSection />
+      </section>
+
+      <section>
+        <OwnersSection/>
+      </section>
+
+      <section>
+        <SponsorsSection />
+      </section>
+
+    </>
   );
 }
