@@ -1,6 +1,6 @@
 'use client'
 
-import styles from "../../components/Hero/Hero.module.css"
+import styles from "../../src/components/Hero/Hero.module.css"
 import { motion } from "framer-motion";
 import { useState } from "react";
 import faqData from '@/data/faqData.json';
