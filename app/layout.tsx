@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "../ui/globals.css";
+import "../src/ui/globals.css";
 import { montserrat } from "@/ui/fonts";
 import NavLinks from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/footer";
