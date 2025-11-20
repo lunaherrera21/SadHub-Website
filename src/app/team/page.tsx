@@ -10,18 +10,30 @@ import {
 
 import teamData from '@/data/teamData.json';
 
-// Mapa para convertir string → componente real
-const iconMap: any = {
+// Define interfaces para tipar correctamente
+interface Social {
+  icon: string;
+  url: string;
+  color: string;
+}
+
+interface TeamMember {
+  name: string;
+  image: string;
+  socials: Social[];
+}
+
+// Mapa tipado para convertir string → componente real
+const iconMap: Record<string, React.ComponentType> = {
   InstagramOutlined,
   XOutlined
 };
 
 export default function EquipoPage() {
-  const players = teamData.valorant_players;
-  const coach = teamData.valorant_coach;
+  const players: TeamMember[] = teamData.valorant_players;
+  const coach: TeamMember[] = teamData.valorant_coach;
 
   return (
-    
     <div className="bg-black text-white relative">
       {/* Overlay con mensaje "Próximamente" - altura mínima para permitir scroll */}
       <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 flex items-center justify-center min-h-screen">
@@ -52,6 +64,7 @@ export default function EquipoPage() {
             fill
             className="object-cover object-center brightness-75"
             priority
+            sizes="(max-width: 1024px) 100vw, 30vw"
           />
         </div>
 
@@ -66,9 +79,7 @@ export default function EquipoPage() {
 
       {/* Panel derecho */}
       <div className="bg-black p-5 lg:ml-[30%]">
-        
         <section className="min-h-screen flex flex-col justify-center px-4 md:px-8 py-12 lg:py-20">
-
           {/* Jugadores */}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -94,6 +105,7 @@ export default function EquipoPage() {
                     alt={player.name}
                     fill
                     className="object-cover"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
 
@@ -134,7 +146,13 @@ export default function EquipoPage() {
                 className="bg-zinc-900 overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 rounded-lg"
               >
                 <div className="w-full h-64 sm:h-72 lg:h-80 relative">
-                  <Image src={coach.image} alt={coach.name} fill className="object-cover" />
+                  <Image 
+                    src={coach.image} 
+                    alt={coach.name} 
+                    fill 
+                    className="object-cover" 
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
                 </div>
 
                 <div className="flex justify-between items-center px-4 py-3 bg-zinc-950">

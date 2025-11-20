@@ -10,6 +10,7 @@ import {
   AngleDoubleUpOutlined
 } from "@lineiconshq/free-icons";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -25,9 +26,11 @@ export default function Footer() {
         {/* 🟣 Columna 1: Logo */}
         <div className="flex flex-col items-center space-y-3">
           <Link href="/">
-            <img
+            <Image
               src="/Logo/Logo-blanco.png"
               alt="SadHub Logo"
+              width={96}  // 24 * 4 = 96 (w-24 en tailwind ≈ 96px)
+              height={38} // altura proporcional
               className="w-24 h-auto"
             />
           </Link>
@@ -52,7 +55,6 @@ export default function Footer() {
               +57 305 8218557
             </a>
           </div>
-
 
           <div className="hidden md:flex items-center gap-5 mt-1">
             <a
@@ -91,36 +93,36 @@ export default function Footer() {
               <Lineicons icon={TiktokOutlined} size={22} color="#FFF" />
             </a>
             <a
-            href="https://kick.com/sadhubesports"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-transform duration-200 hover:scale-125"
-          >
-            <div
-              dangerouslySetInnerHTML={{ __html: siKick.svg }}
-              style={{ width: 19, height: 19, fill: "#fff"}}
-            />
-          </a>
+              href="https://kick.com/sadhubesports"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform duration-200 hover:scale-125"
+            >
+              <div
+                dangerouslySetInnerHTML={{ __html: siKick.svg }}
+                style={{ width: 19, height: 19, fill: "#fff"}}
+              />
+            </a>
           </div>
         </div>
 
         {/* 🌐 Columna 3: Sitemap */}
         <div className="flex flex-col space-y-2 py-2">
-          <a href="/" className="hover:text-yellow-500 transition">
+          <Link href="/" className="hover:text-yellow-500 transition">
             Home
-          </a>
-          <a href="/about" className="hover:text-yellow-500 transition">
+          </Link>
+          <Link href="/about" className="hover:text-yellow-500 transition">
             About
-          </a>
-          <a href="/team" className="hover:text-yellow-500 transition">
+          </Link>
+          <Link href="/team" className="hover:text-yellow-500 transition">
             Team
-          </a>
-          <a href="/shop" className="hover:text-yellow-500 transition">
+          </Link>
+          <Link href="/shop" className="hover:text-yellow-500 transition">
             Shop
-          </a>
-          <a href="/about/#faq" className="hover:text-yellow-500 transition">
+          </Link>
+          <Link href="/about/#faq" className="hover:text-yellow-500 transition">
             FAQ
-          </a>
+          </Link>
         </div>
       </div>
 

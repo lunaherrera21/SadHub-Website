@@ -1,30 +1,11 @@
 'use client';
 
 import { motion, useInView } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
-
+import { useRef } from "react";
 
 export default function SocialSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, amount: 0.2 });
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [activated, setActivated] = useState(false);
-
-const handleHover = () => {
-  if (!activated && videoRef.current) {
-    videoRef.current.play();
-    setActivated(true);
-  }
-};
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    if (!isInView) {
-      video.pause();
-    } 
-  }, [isInView, activated]);
 
   return (
     <section ref={ref} className="bg-[#0b0b0b] py-20 px-4 overflow-hidden">
@@ -65,25 +46,23 @@ const handleHover = () => {
           </div>
         </motion.div>
 
-        {/* 🌐 Columna derecha */}
+        {/* 🌐 Columna derecha - YouTube iframe */}
         <motion.div
           className="flex items-center justify-center h-full"
           initial={{ opacity: 0, x: 60 }}
           animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 60 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         >
-          <video
-          ref={videoRef}
-            playsInline
-            controls
-            onMouseEnter={handleHover}
-            className="w-full h-full rounded-2xl object-cover min-h-[420px]"
-            src="https://www.instagram.com/p/DQM3Fmdkfb-"
-            poster="/Logo/logo.png"
-          />
+          <div className="w-full h-full rounded-2xl overflow-hidden min-h-[420px]">
+            <iframe
+              src="https://www.youtube.com/embed/Sr3xpdlXxa4?autoplay=0&mute=1"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full rounded-2xl"
+            />
+          </div>
         </motion.div>
-
-
       </div>
     </section>
   );
