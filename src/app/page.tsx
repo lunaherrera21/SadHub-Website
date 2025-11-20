@@ -1,4 +1,3 @@
-'use client';
 
 import SponsorsSection from '@/components/Home/Sponsor/Sponsor';
 import HeroSection from '@/components/Hero/Hero';
