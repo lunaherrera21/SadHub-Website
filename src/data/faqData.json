@@ -1,0 +1,63 @@
+{
+  "sections": [
+    {
+      "title": "Consultas Generales",
+      "items": [
+        {
+          "question": "¿Cómo puedo contactar al equipo directamente?",
+          "answer": "Puedes escribirnos a:<br><b><a href='mailto:sadhubesports@gmail.com'>sadhubesports@gmail.com</a></b><br>o por mensaje directo en nuestras redes sociales."
+        },
+        {
+          "question": "¿Tienen planes de expandirse a otros juegos?",
+          "answer": "Sí, consideramos regresar a League of Legends y participar en torneos de Free Fire, PUBG Mobile y 2XKO."
+        },
+        {
+          "question": "¿No encontraste tu respuesta?",
+          "answer": "Contáctanos directamente:<br><b>s<a href='mailto:sadhubesports@gmail.com'>sadhubesports@gmail.com</a></b><br><b><a target='_blank' href='https://wa.me/573058218557?text=Hola,%20quiero%20más%20información%20de%20Sadhub%20Esports'>+57 305 8218557</a></b>"
+        },
+        {
+          "question": "¿Qué significa \"#BeSad\"?",
+          "answer": "#BeSad es más que nuestro lema, es una filosofía. Representa la actitud de nuestro equipo: auténticos, apasionados y decididos a conquistar nuestros objetivos sin importar los obstáculos."
+        },
+        {
+          "question": "¿Buscan staff o creadores de contenido?",
+          "answer": "Sí, estamos buscando creadores de contenido enfocados en Valorant. Si cuentas con lo necesario puedes escribirnos a:<br><b>sadhubesports@gmail.com</b>"
+        }
+      ]
+    },
+    {
+      "title": "Sobre los Equipos",
+      "items": [
+        {
+          "question": "¿En qué juegos compiten actualmente?",
+          "answer": "Actualmente competimos en Valorant (Tier 3). Nuestro enfoque principal está en los títulos de Riot Games, donde buscamos destacar a nivel competitivo."
+        },
+        {
+          "question": "¿Qué torneos han jugado?",
+          "answer": "Hemos participado en torneos como:<br>• Riot Open Qualifier<br>• Gansito Gaming Hub<br>• Liga Reverse<br>• Blossom League<br>• Valorant Movistar Gaming Club<br><br>Hemos logrado posiciones destacadas como segundo lugar y top 5."
+        },
+        {
+          "question": "¿Cómo puedo seguir los partidos del equipo?",
+          "answer": "Puedes seguir nuestros partidos a través de nuestras redes sociales y Twitch.<br><br><b>Redes:</b><br>• TikTok, Instagram y X: <a href=\"https://www.instagram.com/sadhubesports\" target=\"_blank\">@sadhubesports</a><br>• Twitch: <a href=\"https://twitch.tv/sadhubesports\" target=\"_blank\">sadhubesports</a>"
+        }
+      ]
+    },
+    {
+      "title": "Patrocinios y Colaboraciones",
+      "items": [
+        {
+          "question": "¿Cómo puedo patrocinar a SadHub Esports?",
+          "answer": "Ofrecemos paquetes de patrocinio (Bronze, Silver, Gold). Para más información, contáctanos a:<br><b>sadhubesports@gmail.com</b><br><b>+57 305 8218557</b>"
+        },
+        {
+          "question": "¿Qué beneficios ofrece patrocinar al equipo?",
+          "answer": "Beneficios:<br>• Presencia de logo en redes y camisetas<br>• Menciones en streams<br>• Publicaciones dedicadas<br>• Activaciones y giveaways<br>• Acceso a audiencia joven (18-30 años)"
+        },
+        {
+          "question": "¿Trabajan con marcas internacionales?",
+          "answer": "Sí, colaboramos con marcas de tecnología, lifestyle, gaming y energéticas tanto nacionales como internacionales."
+        }
+      ]
+    }
+  ]
+}

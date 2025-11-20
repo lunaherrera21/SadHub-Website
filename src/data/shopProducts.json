@@ -1,0 +1,44 @@
+{
+  "categories": ["Camiseta", "Próximamente"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta Oficial SADHUB",
+      "category": "Camiseta",
+      "description": "<h3 class='text-xl font-semibold mb-2'>Descripción</h3><p>La <strong>Camiseta Oficial SADHUB</strong> está diseñada para los verdaderos fans de la organización. Hecha con <strong>tela transpirable y ligera</strong> para máximo confort durante el juego o el día a día.</p><ul class='list-disc list-inside mt-3 text-gray-300'><li>Material: 100% poliéster premium</li><li>Colores disponibles: negro con detalles dorados</li><li>Edición limitada de lanzamiento</li></ul>",
+      "price": 80000,
+      "images": [
+        "/Productos/camisetaFrontal.jpg",
+        "/Productos/camisetaPosterior.jpg",
+        "/sesionFotos/Foto_Emiliano_1.jpg",
+        "/sesionFotos/Foto_Luna_1.jpg",
+        "/sesionFotos/Foto_Gabriel_1.jpg"
+      ],
+      "img": "/Productos/camisetaFrontal.jpg",
+      "imgHover": "/Productos/camisetaPosterior.jpg",
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "name": "Hoodie Sad Crow",
+      "category": "Próximamente",
+      "description": "",
+      "price": "",
+      "images": ["/Productos/hoddie.png", "/Productos/hoddieFocus.png"],
+      "img": "/Productos/hoddie.png",
+      "imgHover": "/Productos/hoddieFocus.png",
+      "isNew": false
+    },
+    {
+      "id": 3,
+      "name": "Gorro Pesquero Sad Crow",
+      "category": "Próximamente",
+      "description": "",
+      "price": "",
+      "images": ["/Productos/pesquero.png", "/Productos/pesqueroFocus.png"],
+      "img": "/Productos/pesquero.png",
+      "imgHover": "/Productos/pesqueroFocus.png",
+      "isNew": false
+    }
+  ]
+}

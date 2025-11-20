@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+
+@theme inline {
+  --color-yellow: #D78F26;      /* Naranja SadHub */
+  --color-secondary: #1e1e1e;    /* Gris oscuro */
+  --color-accent: #00bfff;       /* Azul eléctrico */
+  --color-neutral: #090909;      /* Fondo base */
+}
+
+body{
+  background-color: #050505;
+  color: aliceblue;
+}
+
+
+

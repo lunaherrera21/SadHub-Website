@@ -1,0 +1,15 @@
+@keyframes scroll-sponsors {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.animate_scroll_sponsors {
+  animation: scroll-sponsors 25s linear infinite;
+  display: flex;
+  white-space: nowrap;
+}

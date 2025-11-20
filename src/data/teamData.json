@@ -1,0 +1,93 @@
+{
+  "owners": [
+    {
+      "name": "Hodr",
+      "image": "/Owners/sebas.webp",
+      "socials": [
+        { "icon": "XOutlined", "color": "#1DA1F2", "url": "https://x.com/AveugleHodr" },
+        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/aveuglehodr" },
+        { "icon": "TwitchOutlined", "color": "#67178aff", "url": "https://www.twitch.tv/aveuglehodr?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4CGNhbGxzaXRlAjE1AAGnhusyNzPVo_bTd9QSU0zYbsdLCnp4oQo5sWLh5HDOb-49nZTYK0U1mEblkbU_aem_ZmFrZWR1bW15MTZieXRlcw&brid=-Ya-EiYZ3RlLF7dH6909cQ" },
+        { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/sebastian-corso " }
+      ]
+    },
+    {
+      "name": "Jose",
+      "image": "/Owners/jose.webp",
+      "socials": [
+        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/jose_manuel991" },
+        { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/jose-manuel-ruiz-jimenez-ab5208243" }
+      ]
+    },
+    {
+      "name": "Saggek",
+      "image": "/Owners/saggek.webp",
+      "socials": [
+        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/gabd337" },
+        { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": " https://www.linkedin.com/in/gabrieldelgado337" }
+      ]
+    },
+        {
+      "name": "Core",
+      "image": "/no-fondo.png",
+      "socials": [
+        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/gabd337" },
+        { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": " https://www.linkedin.com/in/gabrieldelgado337" }
+      ]
+    },
+        {
+      "name": "Solera",
+      "image": "/Owners/solera.webp",
+      "socials": [
+        { "icon": "XOutlined", "color": "#1DA1F2", "url": "https://x.com/_nanogomez_" },
+        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/_nanogomez_" },
+        { "icon": "TwitchOutlined", "color": "#67178aff", "url": "https://www.twitch.tv/solerakriek" }
+      ]
+    }
+  ],
+
+  "valorant_players": [
+    {
+      "name": "Jugador",
+      "image": "/no-fondo.png",
+      "socials": [
+  
+      ]
+    },
+    {
+      "name": "PlayerTwo",
+      "image": "/no-fondo.png",
+      "socials": [
+
+      ]
+    },
+    {
+      "name": "PlayerThree",
+      "image": "/no-fondo.png",
+      "socials": [
+
+      ]
+    },
+    {
+      "name": "PlayerFour",
+      "image": "/no-fondo.png",
+      "socials": [
+
+      ]
+    },
+    {
+      "name": "PlayerFive",
+      "image": "/no-fondo.png",
+      "socials": [
+      ]
+    }
+  ],
+
+  "valorant_coach": [
+    {
+      "name": "CoachX",
+      "image": "/no-fondo.png",
+      "socials": [
+      ]
+    }
+  ]
+}

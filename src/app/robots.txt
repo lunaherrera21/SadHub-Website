@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://sadhub.online/sitemap.xml
+
+# Disallow: /admin
