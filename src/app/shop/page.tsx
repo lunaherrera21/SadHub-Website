@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ProductCard from './ProductCard';
 import ProductDetail from './ProductDetail';
-import data from '@/data/shopProducts.json'
-
+import data from '@/data/shopProducts.json';
+import { Product } from '@/types/products'; // ✅ Importas desde types
 
 const heroImages = [
   '/sesionFotos/Foto_grupal_2.jpeg',
@@ -12,11 +12,11 @@ const heroImages = [
 ];
 
 export default function StorePage() {
-  const [selectedProduct, setSelectedProduct] = useState<any | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [current, setCurrent] = useState(0);
-  const products = data.products; 
+  
+  const products: Product[] = data.products; 
 
-  // ⏰ Cambia la imagen automáticamente cada 5 segundos
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % heroImages.length);

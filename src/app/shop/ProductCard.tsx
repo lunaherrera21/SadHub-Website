@@ -1,7 +1,13 @@
 import Image from 'next/image';
 import { useState } from 'react';
+import { Product } from '@/types/products';
 
-export default function ProductCard({ product, onSelect }: any) {
+interface ProductCardProps {
+  product: Product;
+  onSelect: (product: Product) => void;
+}
+
+export default function ProductCard({ product, onSelect }: ProductCardProps) {
   const [hover, setHover] = useState(false);
 
   const handleClick = () => {

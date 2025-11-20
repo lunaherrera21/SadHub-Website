@@ -2,7 +2,7 @@
   "owners": [
     {
       "name": "Hodr",
-      "image": "/Owners/sebas.webp",
+      "image": "/Owners/jodor-fondo.webp",
       "socials": [
         { "icon": "XOutlined", "color": "#1DA1F2", "url": "https://x.com/AveugleHodr" },
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/aveuglehodr" },
@@ -12,7 +12,7 @@
     },
     {
       "name": "Jose",
-      "image": "/Owners/jose.webp",
+      "image": "/Owners/jose-fondo.webp",
       "socials": [
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/jose_manuel991" },
         { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/jose-manuel-ruiz-jimenez-ab5208243" }
@@ -20,7 +20,7 @@
     },
     {
       "name": "Saggek",
-      "image": "/Owners/saggek.webp",
+      "image": "/Owners/gabs-fondo.webp",
       "socials": [
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/gabd337" },
         { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": " https://www.linkedin.com/in/gabrieldelgado337" }
@@ -28,19 +28,19 @@
     },
         {
       "name": "Core",
-      "image": "/no-fondo.png",
+      "image": "/Owners/core-fondo.webp",
       "socials": [
-        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/gabd337" },
-        { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": " https://www.linkedin.com/in/gabrieldelgado337" }
+        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/jcorre7" }
       ]
     },
         {
       "name": "Solera",
-      "image": "/Owners/solera.webp",
+      "image": "/Owners/sole-fondo.webp",
       "socials": [
         { "icon": "XOutlined", "color": "#1DA1F2", "url": "https://x.com/_nanogomez_" },
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/_nanogomez_" },
-        { "icon": "TwitchOutlined", "color": "#67178aff", "url": "https://www.twitch.tv/solerakriek" }
+        { "icon": "TwitchOutlined", "color": "#67178aff", "url": "https://www.twitch.tv/solerakriek" },
+        { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/emilianogomez1408" }
       ]
     }
   ],

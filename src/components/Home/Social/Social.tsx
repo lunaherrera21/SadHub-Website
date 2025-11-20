@@ -78,7 +78,7 @@ const handleHover = () => {
             controls
             onMouseEnter={handleHover}
             className="w-full h-full rounded-2xl object-cover min-h-[420px]"
-            src="/video/camisetas.mp4"
+            src="https://www.instagram.com/p/DQM3Fmdkfb-"
             poster="/Logo/logo.png"
           />
         </motion.div>

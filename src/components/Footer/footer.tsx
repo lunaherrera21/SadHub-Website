@@ -9,6 +9,7 @@ import {
   TiktokOutlined,
   AngleDoubleUpOutlined
 } from "@lineiconshq/free-icons";
+import Link from "next/link";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -23,13 +24,13 @@ export default function Footer() {
       <div className="relative w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-8">
         {/* 🟣 Columna 1: Logo */}
         <div className="flex flex-col items-center space-y-3">
-          <a href="/">
+          <Link href="/">
             <img
               src="/Logo/Logo-blanco.png"
               alt="SadHub Logo"
               className="w-24 h-auto"
             />
-          </a>
+          </Link>
         </div>
 
         {/* 📨 Columna 2: Contacto y redes */}

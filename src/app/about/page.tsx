@@ -8,6 +8,7 @@ import { Lineicons } from "@lineiconshq/react-lineicons";
 import {
   AngleDoubleDownDuotone
 } from "@lineiconshq/free-icons";
+import Image from "next/image";
 
 
 

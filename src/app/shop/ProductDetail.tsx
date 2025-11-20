@@ -3,8 +3,14 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Product } from '@/types/products'; 
 
-export default function ProductDetail({ product, onBack }: any) {
+interface ProductDetailProps {
+  product: Product;
+  onBack: () => void;
+}
+
+export default function ProductDetail({ product, onBack }: ProductDetailProps) {
   const [mainImage, setMainImage] = useState(product.images[0]);
 
   return (
@@ -93,13 +99,15 @@ export default function ProductDetail({ product, onBack }: any) {
             className="text-gray-300 leading-relaxed py-2"
             dangerouslySetInnerHTML={{ __html: product.description }}
           />
-          <a target="_blank"
-              href="https://wa.me/573058218557?text=Hola,%20quiero%20comprar%20la%20camiseta%20oficial%20de%20Sadhub%20Esports">
+          <a 
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/573058218557?text=Hola,%20quiero%20comprar%20la%20camiseta%20oficial%20de%20Sadhub%20Esports"
+          >
             <button className="mt-4 bg-blue-900 py-3 font-medium text-base rounded-lg w-full cursor-pointer text-white hover:bg-blue-800">
               Comprar
             </button>
           </a>
-
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import owners from '@/data/teamData.json';   // ← Import del JSON
+import owners from '@/data/teamData.json';
 import { Lineicons } from "@lineiconshq/react-lineicons";
 
 // Importo los íconos para mapearlos dinámicamente
@@ -13,17 +13,31 @@ import {
   LinkedinOutlined,
 } from "@lineiconshq/free-icons";
 
-// Mapeo para convertir strings → componente real
-const iconMap: any = {
+// Define el tipo para los íconos
+type IconType = typeof InstagramOutlined | typeof XOutlined | typeof TwitchOutlined | typeof LinkedinOutlined;
+
+// Mapeo tipado para convertir strings → componente real
+const iconMap: Record<string, IconType> = {
   InstagramOutlined,
   XOutlined,
   TwitchOutlined,
   LinkedinOutlined
 };
 
-export default function OwnersSection() {
+// También puedes tipar los datos del owner si quieres
+interface Social {
+  icon: string;
+  url: string;
+  color: string;
+}
 
-  
+interface Owner {
+  name: string;
+  image: string;
+  socials: Social[];
+}
+
+export default function OwnersSection() {
   return (
     <div className="relative bg-black text-white overflow-hidden">
       <div className="bg-black">
@@ -39,7 +53,7 @@ export default function OwnersSection() {
 
           {/* Contenedor de cards */}
           <div className="flex flex-wrap justify-center gap-8">
-            {owners.owners.map((owner, i) => (
+            {(owners.owners as Owner[]).map((owner, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
@@ -54,6 +68,7 @@ export default function OwnersSection() {
                     alt={owner.name}
                     fill
                     className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
 
@@ -63,7 +78,7 @@ export default function OwnersSection() {
 
                   <div className="flex gap-3">
                     {owner.socials.map((s, j) => {
-                      const IconComponent = iconMap[s.icon]; // ← Convierte string a icono real
+                      const IconComponent = iconMap[s.icon];
 
                       return (
                         <a
