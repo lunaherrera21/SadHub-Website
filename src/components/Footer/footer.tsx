@@ -56,7 +56,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className="hidden md:flex items-center gap-5 mt-1">
+          <div className="flex items-center gap-5 mt-1 text-center">
             <a
               href="https://x.com/SadHubEsports"
               target="_blank"
