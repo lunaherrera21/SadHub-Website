@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function SponsorSpotlight() {
   return (
-    <section className="relative h-[200px] flex items-center justify-center overflow-hidden bg-[#0a0a0a] px-6">
+    <section className="relative  z-50 h-[200px] flex items-center justify-center overflow-hidden bg-[#0a0a0a] px-6">
       {/* Contenedor centrado */}
       <div className="max-w-5xl w-full grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
         

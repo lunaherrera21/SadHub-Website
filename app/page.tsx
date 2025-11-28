@@ -21,11 +21,6 @@ export default function Home() {
       <section>
         <OwnersSection/>
       </section>
-
-      <section>
-        <SponsorsSection />
-      </section>
-
     </>
   );
 }

@@ -1,18 +1,23 @@
 {
-  "owners": [
+  "owner": [
     {
       "name": "Hodr",
       "image": "/Owners/jodor-fondo.webp",
+      "role": "CEO & Sports Director",
       "socials": [
         { "icon": "XOutlined", "color": "#1DA1F2", "url": "https://x.com/AveugleHodr" },
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/aveuglehodr" },
         { "icon": "TwitchOutlined", "color": "#67178aff", "url": "https://www.twitch.tv/aveuglehodr?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4CGNhbGxzaXRlAjE1AAGnhusyNzPVo_bTd9QSU0zYbsdLCnp4oQo5sWLh5HDOb-49nZTYK0U1mEblkbU_aem_ZmFrZWR1bW15MTZieXRlcw&brid=-Ya-EiYZ3RlLF7dH6909cQ" },
         { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/sebastian-corso " }
       ]
-    },
+    }
+  ],
+
+  "co_owners": [
     {
       "name": "Jose",
       "image": "/Owners/jose-fondo.webp",
+      "role": "Head of Operations",
       "socials": [
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/jose_manuel991" },
         { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/jose-manuel-ruiz-jimenez-ab5208243" }
@@ -21,6 +26,7 @@
     {
       "name": "Saggek",
       "image": "/Owners/gabs-fondo.webp",
+      "role": "Head of Operations",
       "socials": [
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/gabd337" },
         { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": " https://www.linkedin.com/in/gabrieldelgado337" }
@@ -29,18 +35,29 @@
         {
       "name": "Core",
       "image": "/Owners/core-fondo.webp",
+      "role": "Head Investor",
       "socials": [
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/jcorre7" }
       ]
     },
-        {
+    {
       "name": "Solera",
       "image": "/Owners/sole-fondo.webp",
+      "role": "Head of Marketing",
       "socials": [
         { "icon": "XOutlined", "color": "#1DA1F2", "url": "https://x.com/_nanogomez_" },
         { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/_nanogomez_" },
         { "icon": "TwitchOutlined", "color": "#67178aff", "url": "https://www.twitch.tv/solerakriek" },
         { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/emilianogomez1408" }
+      ]
+    },
+    {
+      "name": "Luna",
+      "image": "/Owners/luna-fondo.png",
+      "role": "Software Developer",
+      "socials": [
+        { "icon": "InstagramOutlined", "color": "#E1306C", "url": "https://www.instagram.com/_lunapx__/" },
+        { "icon": "LinkedinOutlined", "color": "#0A66C2", "url": "https://www.linkedin.com/in/luna-herrera-9ab435227/" }
       ]
     }
   ],

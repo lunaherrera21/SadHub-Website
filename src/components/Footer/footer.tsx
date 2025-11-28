@@ -1,5 +1,6 @@
 'use client'
 
+import Sponsor from "../Home/Sponsor/Sponsor"
 import { siKick } from "simple-icons";
 import { Lineicons } from "@lineiconshq/react-lineicons";
 import {
@@ -21,6 +22,8 @@ export default function Footer() {
   };
 
   return (
+    <>
+    <Sponsor/>
     <footer className="relative bg-black text-gray-300 py-10 px-6 z-50">
       <div className="relative w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-gray-700 pb-8">
         {/* 🟣 Columna 1: Logo */}
@@ -140,5 +143,6 @@ export default function Footer() {
         <Lineicons icon={AngleDoubleUpOutlined} size={30} color="#fff" />
       </button>
     </footer>
+     </>
   );
 }
